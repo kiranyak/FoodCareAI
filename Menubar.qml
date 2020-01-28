@@ -9,7 +9,7 @@ MenuBar{
         Action { text: qsTr("&Save") }
         Action { text: qsTr("Save &As...") }
         MenuSeparator { }
-        Action { text: qsTr("&Quit") }
+        Action { text: qsTr("&Quit")}
     }
     Menu {
         title: qsTr("&Edit")

@@ -2,13 +2,18 @@ import QtQuick 2.12
 import QtQuick.Window 2.12
 import QtQuick.Controls 2.4
 
-Window {
+ApplicationWindow {
     visible: true
     width: 640
     height: 480
+    color: "black"
     title: qsTr("VegiAI")
 
-    Menubar{
+    menuBar: Menubar{
 
+    }
+    Button{
+        text: "Take picture of your food"
+        highlighted: true
     }
 }
