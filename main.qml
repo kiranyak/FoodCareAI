@@ -18,17 +18,16 @@ ApplicationWindow {
     menuBar: Menubar{
 
     }
-
     ColumnLayout{
         id:layout
         anchors.centerIn: parent
         spacing:6
         Rectangle {
-            color: "black"
-            width:300
-            height:300
+            color: Material.Dark
+            width:200
+            height:200
             Image{
-                width: 400; height: 400
+                width: 200; height: 200
                 source: "images/camera.png"
                 fillMode: Image.PreserveAspectFit
             }

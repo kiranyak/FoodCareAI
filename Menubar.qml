@@ -15,6 +15,7 @@ MenuBar{
 
     Menu {
         title: qsTr("&Settings")
+        Action { text: qsTr("&Take Automatic picutre...")}
     }
 
     Menu {
