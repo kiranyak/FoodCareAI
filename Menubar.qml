@@ -4,21 +4,22 @@ import QtQuick.Controls 2.4
 MenuBar{
     Menu {
         title: qsTr("&File")
-        Action { text: qsTr("&New...") }
+        Action { icon.source: "Images/edit.png";
+            text: qsTr("&New...") }
         Action { text: qsTr("&Open...") }
         Action { text: qsTr("&Save") }
         Action { text: qsTr("Save &As...") }
         MenuSeparator { }
         Action { text: qsTr("&Quit")}
     }
+
     Menu {
-        title: qsTr("&Edit")
-        Action { text: qsTr("Cu&t") }
-        Action { text: qsTr("&Copy") }
-        Action { text: qsTr("&Paste") }
+        title: qsTr("&Settings")
     }
+
     Menu {
         title: qsTr("&Help")
-        Action { text: qsTr("&About") }
+        Action { icon.source: "Images/help.png"}
+        Action { text: qsTr("&About FoodCareAI") }
     }
 }
